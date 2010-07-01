@@ -1,2 +1,0 @@
-Analyzer analyzer = new cwssAnalyzer();
-IndexWriter standardWriter = new IndexWriter(FSDirectory.open(indexDir), analyzer, true , IndexWriter.MaxFieldLength.LIMITED);
